@@ -6,21 +6,14 @@
     {
       "type": "vless",
       "tag": "🇦🇹 奥地利 (Austria) 01 - xiaohe",
-      "server": "152.53.1.40",
-      "server_port": 443,
-      "uuid": "edde565e-41f5-400e-84ea-7b87a3e84488",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "at.quattro-tech.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc",
-          "short_id": "43dcff53849b81e6"
+      "server": "188.114.97.6",
+      "server_port": 8880,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
         }
       }
     },
@@ -33,12 +26,34 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
+      "type": "vless",
+      "tag": "🇦🇹 奥地利 (Austria) 03 - xiaohe",
+      "server": "152.53.1.40",
+      "server_port": 443,
+      "uuid": "edde565e-41f5-400e-84ea-7b87a3e84488",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "at.quattro-tech.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc",
+          "short_id": "43dcff53849b81e6"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇦🇹 奥地利 (Austria) 01 - xiaohe",
-        "🇦🇹 奥地利 (Austria) 02 - xiaohe"
+        "🇦🇹 奥地利 (Austria) 02 - xiaohe",
+        "🇦🇹 奥地利 (Austria) 03 - xiaohe"
       ]
     },
     {
@@ -46,7 +61,8 @@
       "tag": "auto",
       "outbounds": [
         "🇦🇹 奥地利 (Austria) 01 - xiaohe",
-        "🇦🇹 奥地利 (Austria) 02 - xiaohe"
+        "🇦🇹 奥地利 (Austria) 02 - xiaohe",
+        "🇦🇹 奥地利 (Austria) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
