@@ -15,7 +15,7 @@
         "server_name": "www.icloud.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -37,8 +37,41 @@
       }
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇭🇰 中国香港 (Hong Kong) 03 - xiaohe",
+      "server": "202.146.222.29",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "https://t.me/wangcai2ð",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - xiaohe",
+      "server": "207.56.137.51",
+      "server_port": 443,
+      "uuid": "01ada9fb-fa2f-45da-a0d0-bce80cdf433b",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "WNifT0qNHWrUsvC6cuvej0rzZe6qPijopbmJyRADOF0",
+          "short_id": "f713561d"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - xiaohe",
       "server": "154.37.216.186",
       "server_port": 443,
       "uuid": "ebdec762-050b-4d54-b7bf-0406ce22f734",
@@ -48,7 +81,7 @@
         "server_name": "www.bing.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -59,7 +92,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - xiaohe",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - xiaohe",
       "server": "34.92.19.135",
       "server_port": 443,
       "uuid": "90153538-ef08-4942-b8e1-41e7c523e659",
@@ -79,22 +112,27 @@
     },
     {
       "type": "vmess",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - xiaohe",
-      "server": "47.244.120.197",
-      "server_port": 23026,
-      "uuid": "b9de1bc9-baa7-41ac-86f7-ccd59695cb21",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 07 - xiaohe",
+      "server": "yg1.ygkkk.dpdns.org",
+      "server_port": 443,
+      "uuid": "b2ba4a73-3123-479e-aa96-5973a9ecd0c0",
       "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "jmp1.907737.xyz",
+        "insecure": false
+      },
       "transport": {
         "type": "ws",
-        "path": "/arki",
+        "path": "/b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm",
         "headers": {
-          "Host": "47.244.120.197"
+          "Host": "jmp1.907737.xyz"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - xiaohe",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 08 - xiaohe",
       "server": "8.218.195.61",
       "server_port": 443,
       "uuid": "f23bb427-c1f9-4373-876c-2f43e9f790f3",
@@ -114,45 +152,13 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 07 - xiaohe",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 09 - xiaohe",
       "server": "hk2.xiaoliyu.cyou",
       "server_port": 4433,
       "password": "8b64b840-a48d-4ac0-b10f-8f7d7081a0f1",
       "tls": {
         "enabled": true,
         "server_name": "hk2.xiaoliyu.cyou",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 08 - xiaohe",
-      "server": "yg1.ygkkk.dpdns.org",
-      "server_port": 443,
-      "uuid": "b2ba4a73-3123-479e-aa96-5973a9ecd0c0",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "jmp1.907737.xyz",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm",
-        "headers": {
-          "Host": "jmp1.907737.xyz"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 09 - xiaohe",
-      "server": "202.146.222.29",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "https%3a%2f%2ft.me%2fwangcai2%ef%a3%bf%c3%bc%c3%a1",
         "insecure": true
       }
     },
@@ -185,7 +191,7 @@
         "reality": {
           "enabled": true,
           "public_key": "09XPceP705hC-5sEDXDSLeL2eMOrF-mFISK8JaJ7q2g",
-          "short_id": "09353d6dc5b789"
+          "short_id": "ac3342a709db"
         }
       }
     },
